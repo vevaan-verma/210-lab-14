@@ -5,9 +5,11 @@ using namespace std;
 #include <string>
 
 // class Color represents a color with red, green, and blue components
+// the class has getter and setter methods for each component, as well as a print method
 class Color {
 
 private:
+	// the red, green, and blue components are integers in the range [0, 255]
 	int red;
 	int green;
 	int blue;
@@ -28,11 +30,7 @@ public:
 	// print() prints the color in the format "Color: [RED VALUE], [GREEN VALUE], [BLUE VALUE]"
 	// arguments: none
 	// returns: void
-	void print() const {
-
-		cout << "RGB Code: " << setw(3) << red << ", " << setw(3) << green << ", " << setw(3) << blue << endl;
-
-	}
+	void print() const { cout << "RGB Code: " << setw(3) << red << ", " << setw(3) << green << ", " << setw(3) << blue << endl; }
 
 };
 
@@ -41,6 +39,7 @@ public:
 // returns: int - the exit code of the program
 int main() {
 
+	// create a Color object for each of the following colors, then print them for testing purposes
 	Color red;
 	red.setRed(255);
 	red.setGreen(0);
