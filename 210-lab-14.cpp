@@ -16,16 +16,16 @@ private:
 
 public:
 	// getter and setter for the red component
-	void setRed(int r) { red = r; }
 	int getRed() const { return red; }
+	void setRed(int r) { red = r; }
 
 	// getter and setter for the green component
-	void setGreen(int g) { green = g; }
 	int getGreen() const { return green; }
+	void setGreen(int g) { green = g; }
 
 	// getter and setter for the blue component
-	void setBlue(int b) { blue = b; }
 	int getBlue() const { return blue; }
+	void setBlue(int b) { blue = b; }
 
 	// print() prints the color in the format "Color: [RED VALUE], [GREEN VALUE], [BLUE VALUE]"
 	// arguments: none
