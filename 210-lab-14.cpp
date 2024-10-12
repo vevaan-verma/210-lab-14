@@ -71,4 +71,6 @@ int main() {
 	orange.print();
 	purple.print();
 
+	return 0;
+
 }
